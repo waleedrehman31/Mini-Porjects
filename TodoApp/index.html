@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>TODO App - Mini Projects</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <header>
+      <h1 class="header-heading">Vanilla Todo App</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="add-todo-form">
+          <form action="" class="add-todo-form">
+            <div class="form-label">
+              <label for="todo">Enter TODO</label>
+            </div>
+            <input type="text" id="todo" name="todo" class="input" />
+            <div class="button-warrper">
+              <button class="button form-button" type="submit">Add Todo</button>
+            </div>
+          </form>
+        </div>
+        <div class="display-todo">
+          <h1 class="todo-heading">Your TODOs</h1>
+          <ul class="todos-list">
+            <li class="todo-list-item">
+              <span class="todo-id">1:</span>
+              <p class="main-todo">Learn HTML</p>
+              <button class="button done-button">Done</button>
+              <button class="button delete-button">Delete</button>
+            </li>
+            <li class="todo-list-item">
+              <span class="todo-id">2:</span>
+              <p class="main-todo">Learn CSS</p>
+              <button class="button done-button">Done</button>
+              <button class="button delete-button">Delete</button>
+            </li>
+            <li class="todo-list-item">
+              <span class="todo-id">3:</span>
+              <p class="main-todo">Learn JS</p>
+              <button class="button done-button">Done</button>
+              <button class="button delete-button">Delete</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
   </body>
 </html>

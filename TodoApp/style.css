@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #2b88f0;
+  background-color: #377bc5;
   font-family: "Muli", sans-serif;
   display: flex;
   flex-direction: column;
@@ -14,4 +14,110 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 700px;
+  padding: 20px;
+}
+
+.header-heading {
+  font-size: 50px;
+  color: rgb(231, 226, 226);
+}
+
+.form-label {
+  color: rgb(231, 226, 226);
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  font-size: 35px;
+  border-bottom: 2px solid lightblue;
+}
+
+.input {
+  background-color: rgba(231, 226, 226, 0.9);
+  border: 0;
+  border-radius: 50px;
+  color: rgb(39, 39, 39);
+  font-size: 18px;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  padding: 10px 7px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button-warrper {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-button {
+  background-color: lightgreen;
+  color: darkgreen;
+  width: 100%;
+}
+
+.form-button:hover {
+  background-color: rgb(55, 173, 55);
+  color: lightgreen;
+}
+
+.todo-heading {
+  color: rgb(231, 226, 226);
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  font-size: 35px;
+  border-bottom: 2px solid lightblue;
+  margin: 20px 0px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  width: 100%;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.main-todo {
+  flex: 1;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.done-button {
+  margin: 0px 10px;
+  color: darkblue;
+  background-color: lightblue;
+}
+
+.delete-button {
+  color: red;
+  background-color: lightcoral;
 }
